@@ -9,6 +9,7 @@
  * ダメージ減少率は、実効防御力 / (100 + 実効防御力) で定義され、
  * ダメージは、攻撃力 * (1 - ダメージ減少率) を小数点以下で四捨五入した値となる。
  * 
+ * 
  * @param {Number} power 攻撃力
  * @param {Number} armor 防御力
  * @param {Number} armorPenetration 防御力貫通
